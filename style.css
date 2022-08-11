@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.profile,
+.informations,
+.tecnologs,
+.sections {
+  background-color: var(--bg-cards);
+  width: 34.8rem;
+  border-radius: 2rem;
+}
+
+.profile {
+  height: 29.2rem;
+  font-size: 2.3rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  font-weight: 700;
+  margin: 4rem 6rem 3rem 4rem;
+}
+.profile img {
+  width: 12.8rem;
+  height: 12.8rem;
+  border-radius: 50%;
+  border: solid #00ff00;
+
+  margin: 3rem 11rem 3rem 11rem;
+}
+
+.profile p {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+
+  margin-top: 1rem;
+}
+
+.informations {
+  height: 34.8rem;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+
+  margin-left: 4rem;
+}
+.informations ul {
+  padding: 3.4rem 4rem;
+}
+
+.informations li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.8rem;
+  gap: 2rem;
+}
+
+.informations img {
+  color: var(--text-color);
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.informations path {
+  fill: var(--text-color);
+}
+
+.tecnologs {
+  height: 20.8rem;
+  padding: 2rem 3rem;
+  margin: 3rem 0 3rem 4rem;
+}
+.tecnologs ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.tecnologs li {
+  font-size: 1rem;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  color: var(--body-bg-color);
+  background-color: var(--bg-techs);
+  min-width: 8.6rem;
+  height: 2.4rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+
+.posts img {
+  width: 12.8rem;
+  height: 12.8rem;
+  border-radius: 50%;
+  border: solid #00ff00;
+}
+
+.sections {
+  height: 34.9rem;
+  margin-bottom: 3rem;
+  margin-left: 4rem;
+  padding: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.sections li {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.sections li p {
+  font-weight: 300;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.my-projects {
+  display: flex;
+  width: 86rem;
+  height: 8.6rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+
+  padding: 3rem;
+  background: #302f3d;
+  margin-bottom: 3rem;
+
+  border-radius: 2rem;
+}
+
+.my-projects p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+}
+
+.cards {
+  display: flex;
+  margin-bottom: 3rem;
+  gap: 3rem;
+}
+
+.favorites {
+  width: 41.5rem;
+  height: 18rem;
+  padding: 3rem;
+
+  background: #302f3d;
+
+  border-radius: 2rem;
+}
+
+.favorites h2 {
+  margin-bottom: 2.7rem;
+}
+
+li {
+  list-style: none;
+}
