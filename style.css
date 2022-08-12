@@ -183,6 +183,42 @@ body {
   margin-bottom: 2.7rem;
 }
 
+.log-posts {
+  display: flex;
+  padding: 3rem;
+  background-color: var(--bg-cards);
+
+  border-radius: 2rem;
+}
+
+.posts {
+  align-items: center;
+  margin-left: 2rem;
+  line-height: 1.8rem;
+}
+
+.posts h2 {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.posts span {
+  font-size: 1.4rem;
+}
+
+.posts p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin: 2.8rem 0 1rem 0;
+}
+
+span {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
 li {
   list-style: none;
 }
